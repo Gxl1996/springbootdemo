@@ -20,5 +20,10 @@ public class helloController {
         Car car = new Car(1, "丰田", 78.89F, new Date());
         return car;
     }
+     @RequestMapping("/car1")
+        public Car findOne(){
+            Car car = new Car(1, "丰田", 78.89F, new Date());
+            return car;
+        }
 
 }
